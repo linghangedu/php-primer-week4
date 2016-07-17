@@ -8,6 +8,6 @@ if ($age < 18){
 }
 $entry = "Email address: ".$email."\n" ."Slogan: ".$slogan."\n";
 
-mail("tinnnng@gmail.com", "Contact Entry", $entry);
+mail("example@gmail.com", "Contact Entry", $entry);
 echo "Your entry has been submitted. Good luck!";
 ?>

@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: yj
- * Date: 6/08/15
- * Time: 10:48 PM
- */
-
 
 //////////local variable///////////
 $x = 4;

@@ -52,4 +52,16 @@ print $formated_date;
 print date("m/d/y G.i:s\n", time());
 print "Today is ";
 print date("j of F Y, \a\\t g.i a", time());
+
+$d=strtotime("tomorrow");
+echo date("Y-m-d h:i:sa", $d) . "<br>";
+
+$d=strtotime("next Saturday");
+echo date("Y-m-d h:i:sa", $d) . "<br>";
+
+$d=strtotime("+3 Months");
+echo date("Y-m-d h:i:sa", $d) . "<br>";
+
+// date_default_timezone_set("America/New_York");
+// echo "The time is " . date("h:i:sa");
 ?>
