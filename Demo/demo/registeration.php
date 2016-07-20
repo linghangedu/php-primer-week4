@@ -28,7 +28,7 @@
 
       <h2>Tutorials Point Absolute classes registration</h2>
 
-      <form method = "post" action = "/php/php_form_introduction.htm">
+      <form method = "post" action = "<?php $_PHP_SELF ?>">
          <table>
             <tr>
                <td>Name:</td>
